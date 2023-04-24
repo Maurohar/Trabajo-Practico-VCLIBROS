@@ -14,6 +14,8 @@
     <link rel="stylesheet" href="../css/styles.css">
     <title>VCLIBROS</title>
 
+<body>
+            <!-- navbar -->
     <header class="container d-flex justify-content-around">
         <nav class="navbar navbar-expand-lg bg-body-tertiary">
             <div class="container-fluid">
@@ -62,34 +64,115 @@
     </header>
     <hr>
     <div>
-        <h2 class="d-flex justify-content-around">Registrarse</h2>
+        <h2 class="d-flex justify-content-center">Registrarse</h2>
     </div>
     <hr>
     <hr>
-
+        <!-- main log-in -->
     <main>
-        <div class="mb-3 col-lg-2">
-            <label for="exampleFormControlInput1" class="form-label">Ingrese su Email</label>
-            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="nombre@email.com">
-        </div>
+        <article class="container">
+            <div class="row justify-content-around">
+                <div class="col-6 mb-3 col-lg-2">
+                    <label for="exampleFormControlInput1" class="form-label">Ingrese su Email</label>
+                    <input type="email" class="form-control" id="exampleFormControlInput1"
+                        placeholder="nombre@email.com">
+                </div>
 
-        <div class="mb-3 col-lg-2">
-        <label for="inputPassword5" class="form-label">Contraseña</label>
-        <input type="password" id="inputPassword5" class="form-control" aria-labelledby="passwordHelpBlock">
-        <div id="passwordHelpBlock" class="form-text">
-            Tu contraseña debe contener entre 8-20 caracteres, debe tener letras y numeros,sin espacios, o caracteres especiales.
-        </div>
-    </div>
-        <div class="mb-3 col-lg-2">
-            <label for="exampleFormControlTextarea1" class="form-label">Escribir aqui...</label>
-            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-        </div>
+                <div class="mb-3 col-lg-2">
+                    <label for="inputPassword5" class="form-label">Contraseña</label>
+                    <input type="password" id="inputPassword5" class="form-control" aria-labelledby="passwordHelpBlock">
+                    <div id="passwordHelpBlock" class="form-text">
+                        Tu contraseña debe contener entre 8-20 caracteres, debe tener letras y numeros,sin espacios, o
+                        caracteres especiales.
+                    </div>
+                </div>
+                <div class="mb-3 col-lg-2">
+                    <label for="exampleFormControlTextarea1" class="form-label">Escribir aqui...</label>
+                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                </div>
+            </div>
 
-        <!-- seccion videos -->
 
-        <figure class="d-flex justify-content-around">
-            <video src="../videos/vid-registrarse.mp4" controls width="200px"></video>
-        </figure>
+            <form class="row g-3 needs-validation" novalidate>
+                <div class="col-md-4">
+                    <label for="validationCustom01" class="form-label">Primer nombre</label>
+                    <input type="text" class="form-control" id="validationCustom01" value="Nombre" required>
+                    <div class="valid-feedback">
+                        Perfecto!
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <label for="validationCustom02" class="form-label">Apellido</label>
+                    <input type="text" class="form-control" id="validationCustom02" value="Apellidos.." required>
+                    <div class="valid-feedback">
+                        Perfecto!
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <label for="validationCustomUsername" class="form-label">Nickname-Sobrenombre</label>
+                    <div class="input-group has-validation">
+                        <span class="input-group-text" id="inputGroupPrepend">@</span>
+                        <input type="text" class="form-control" id="validationCustomUsername"
+                            aria-describedby="inputGroupPrepend" required>
+                        <div class="invalid-feedback">
+                            Elije tu nombre de usuario.
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <label for="validationCustom03" class="form-label">Ciudad</label>
+                    <input type="text" class="form-control" id="validationCustom03" required>
+                    <div class="invalid-feedback">
+                        Porfavor ingresa tu ciudad.
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <label for="validationCustom04" class="form-label">País</label>
+                    <select class="form-select" id="validationCustom04" required>
+                        <option selected disabled value="">Seleccione</option>
+                        <option>Argentina</option>
+                        <option>Alemania</option>
+                        <option>España</option>
+                        <option>Francia</option>
+                        <option>Guatemala</option>
+                        <option>Italia</option>
+                        <option>Rusia</option>
+                        <option>...</option>
+                    </select>
+                    <div class="invalid-feedback">
+                        Porfavor selecciona tu pais de origen.
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <label for="validationCustom05" class="form-label">Codigo postal:</label>
+                    <input type="text" class="form-control" id="validationCustom05" required>
+                    <div class="invalid-feedback">
+                        Porfavor ingresa tu codigo postal.
+                    </div>
+                </div>
+                <div class="col-12">
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="invalidCheck" required>
+                        <label class="form-check-label" for="invalidCheck">
+                            Acepto los terminos y condiciones.
+                        </label>
+                        <div class="invalid-feedback">
+                            Acepto los terminos y condiciones
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12">
+                    <button class="btn btn-primary" type="submit">Enviar</button>
+                </div>
+            </form>
+
+
+
+            <!-- seccion videos -->
+
+            <figure class="d-flex justify-content-around">
+                <video src="../videos/vid-registrarse.mp4" controls width="200px"></video>
+            </figure>
     </main>
 
     <!-- footer -->
@@ -116,7 +199,7 @@
         <article class="container">
             <div class="row">
                 <p class="col-12 d-flex justify-content-around">
-                    Copyright © 2023 VC LIBROS  
+                    Copyright © 2023 VC LIBROS
                     Política de privacidad
                     Términos y condiciones
                 </p>
@@ -128,6 +211,7 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
         crossorigin="anonymous"></script>
-    </body>
+
+</body>
 
 </html>
