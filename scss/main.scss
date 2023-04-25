@@ -10,8 +10,9 @@
 
 
     .title-vclibros{
-        font-size: 3rem;
+        font-size: 4rem;
         font-family: 'Castoro Titling', cursive;
+        color: rgba(69, 18, 18, 0.866);
     }
 
     .ul-size a{
@@ -22,15 +23,30 @@
 
 
 
-/* main index cards */
+/* main index */
 
-
- .title-vidriera{
+.title-vidriera{
+    font-size: 3rem;
     display: flex;
     justify-content: center;
     font-family: 'Castoro Titling', cursive;
+}
 
- }
+
+.parrafos {
+    font-size: 1.3rem;
+    font-family: 'Montserrat', sans-serif;
+    color: black;
+    background-color: #dd4d4d5d;
+    border-radius: 20px;
+    padding: 20px;
+
+}
+
+
+
+
+/* main index cards */
 
 
 
