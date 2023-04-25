@@ -1,22 +1,39 @@
 @import url(./componentes/_variables.scss);
-/* ((HEADER - INDEX - NAV)) */
+/* ((HEADER - INDEX - NAV)) */ 
 
     .header {    
     display: flex;
     justify-content: space-around;
     align-items: center;
     font-size: 2rem;
-    font-family: tipoletra-primario;
+    font-family: 'Montserrat', sans-serif;
+
 
     .title-vclibros{
         font-size: 3rem;
+        font-family: 'Castoro Titling', cursive;
     }
 
     .ul-size a{
-        font-size: $size-tipografia;
-    }
-    
+        font-size: 1.5rem;
+        font-family: 'Castoro Titling', cursive;
+        }
 }
+
+
+
+/* main index cards */
+
+
+ .title-vidriera{
+    display: flex;
+    justify-content: center;
+    font-family: 'Castoro Titling', cursive;
+
+ }
+
+
+
 
 
 

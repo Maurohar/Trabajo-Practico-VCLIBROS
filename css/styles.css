@@ -1,17 +1,26 @@
-/* Error: Undefined variable.
- *    ,
- * 16 |         font-size: $size-tipografia;
- *    |                    ^^^^^^^^^^^^^^^^
- *    '
- *   scss\main.scss 16:20  root stylesheet */
-
-body::before {
-  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
-      "Droid Sans Mono", monospace, monospace;
-  white-space: pre;
-  display: block;
-  padding: 1em;
-  margin-bottom: 1em;
-  border-bottom: 2px solid black;
-  content: "Error: Undefined variable.\a    \2577 \a 16 \2502          font-size: $size-tipografia;\d\a    \2502                     ^^^^^^^^^^^^^^^^\a    \2575 \a   scss\\main.scss 16:20  root stylesheet";
+@import url(./componentes/_variables.scss);
+/* ((HEADER - INDEX - NAV)) */
+.header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-size: 2rem;
+  font-family: "Montserrat", sans-serif;
 }
+.header .title-vclibros {
+  font-size: 3rem;
+  font-family: "Castoro Titling", cursive;
+}
+.header .ul-size a {
+  font-size: 1.5rem;
+  font-family: "Castoro Titling", cursive;
+}
+
+/* main index cards */
+.title-vidriera {
+  display: flex;
+  justify-content: center;
+  font-family: "Castoro Titling", cursive;
+}
+
+/*# sourceMappingURL=styles.css.map */
