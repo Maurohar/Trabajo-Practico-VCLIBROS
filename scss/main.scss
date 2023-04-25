@@ -1,14 +1,21 @@
-/* variables */
+@import url(./componentes/_variables.scss);
+/* ((HEADER - INDEX - NAV)) */
 
-$color-primario: rgb(121, 111, 111);
-$tamano-texto: 6rem;
+    .header {    
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 2rem;
+    font-family: tipoletra-primario;
 
+    .title-vclibros{
+        font-size: 3rem;
+    }
 
-
-/* ((HEADER - INDEX)) */
-.header {
-    font-size: $tamano-texto;
-
+    .ul-size a{
+        font-size: $size-tipografia;
+    }
+    
 }
 
 
