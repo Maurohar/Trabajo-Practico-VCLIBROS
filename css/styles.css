@@ -1,5 +1,7 @@
-/* index-vidriera */
-body .max-width{
-  max-width: 1600px;
-
+/* variables */
+/* ((HEADER - INDEX)) */
+.header {
+  font-size: 6rem;
 }
+
+/*# sourceMappingURL=styles.css.map */

@@ -1,12 +1,16 @@
-/* index-vidriera */
+/* variables */
+
+$color-primario: rgb(121, 111, 111);
+$tamano-texto: 6rem;
 
 
 
+/* ((HEADER - INDEX)) */
+.header {
+    font-size: $tamano-texto;
 
-
-
-.bg-coral{
-    background-color: #f9865c4b;
-    border-radius: 20px;
-    padding: 8px;
 }
+
+
+
+
