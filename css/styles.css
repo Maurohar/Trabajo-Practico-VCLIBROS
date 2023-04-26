@@ -48,8 +48,26 @@
   font-family: "Castoro Titling", cursive;
 }
 
+/* footer index */
 .icon-size {
   font-size: 1.7rem;
+}
+
+/* page actualidad */
+.header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-size: 2rem;
+  font-family: "Montserrat", sans-serif;
+}
+.header .title-actualidad {
+  display: row;
+  justify-content: center;
+  align-items: center;
+  font-size: 4rem;
+  font-family: "Castoro Titling", cursive;
+  color: rgba(69, 18, 18, 0.866);
 }
 
 /*# sourceMappingURL=styles.css.map */
