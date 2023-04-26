@@ -21,7 +21,8 @@
 <body>
     
 <header class="header">
-    <nav class="navbar navbar-expand-lg">
+
+        <nav class="navbar navbar-expand-lg">
     <div class="container-fluid">
         <a class="navbar-brand title-vclibros" href="#">VCLIBROS</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
@@ -32,17 +33,17 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav mb-2 mb-lg-0">
                 <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="../index.html">Vidriera</a>
+                    <a class="nav-link" aria-current="page" href="../index.html">Vidriera</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link active" href="./nosotros.html">Nosotros</a>
+                    <a class="nav-link" href="./nosotros.html">Nosotros</a>
                 </li>
                 <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
                         aria-expanded="false">
                         Catalogos
                     </a>
-                    <ul class="dropdown-menu active">
+                    <ul class="ul-size dropdown-menu active">
                         <li><a class="dropdown-item" href="./catalogos.html">BestSeller</a></li>
                         <li><a class="dropdown-item" href="./catalogos.html">Revistas</a></li>
                         <li><a class="dropdown-item" href="./catalogos.html">Poesia</a></li>
@@ -53,8 +54,8 @@
                         <li><a class="dropdown-item" href="./pages/catalogos.html">Más...</a></li>
                     </ul>
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link active" href="./registrarse.html">Registarse</a>
+                <li class="d-flex nav-item">
+                    <a class="nav-link" href="./registrarse.html">Registarse</a>
                 </li>
             </ul>
             <form class="d-flex" role="search">
@@ -70,30 +71,42 @@
 <main>
     <hr>
     <div class="container-title">
-        <h2 class="title-actualidad col-lg-12 col-sm-2">Actualidad</h2>
+        <h2>Actualidad</h2>
     </div>
     <hr>
 
-    <article class="container">
-        <div class="row">
-        <h3 class="h3 justify-content-around">
-            Encontró la manera de unir libros con cassettes y su idea se volvió viral: “Nueva necesidad
-            desbloqueada” Un inventor argentino presentó los “bookcassettes” como un nuevo soporte de lectura y se
-            transformó en un fenómeno en las redes.</h3>
-            <div class="d-flex justify-content-around"><img class="col-lg-6" src="../imagenes/cassettelibromain.jpg" width="250px" alt=""></div>
-            
+
+    <section class="container parrafos">
+        <div class="px-4">
+            <div class="row gx-5">
+                <div class="col-sm-6">
+                    <div class="p-3">
+                        <h3>Encontró la manera de unir libros con cassettes y su idea se volvió viral: “Nueva necesidad
+                            desbloqueada” Un inventor argentino presentó los “bookcassettes” como un nuevo soporte de lectura y se
+                            transformó un fenómeno en las redes..</h3>
+                    </div>
+                </div>
+                <img class="col-sm-6 parrafos" src="../imagenes/cassettelibromain.jpg" width="250px" alt="">
+
+
+                <div class="col-sm-6 parrafos">
+                    <div class="p-3">
+                        <p>El proyecto, que participó del concurso Innovar, se llevó desde el año pasado varios aplausos. “No
+                            ganamos el premio, pero nos ganamos las caras de fascinación y las palabras cariñosas de quienes pasaron
+                            por el stand 🤩”, escribieron. Bookcassete, un invento argentino y original Presentado como “un nuevo
+                            soporte de lectura”, lo que lo ha vuelto entrañable es su modo de consumo, que apela a la nostalgia para
+                            los que consumieron música en las décadas de 1980 y 1990. Porque, además, la forma de “pasar de página”
+                            es genial: con una birome, parte imprescindible en esta historia.</p>
+                    </div>
+                </div>
             </div>
+        </div>
 
-            <h4 class="h4 d-flex justify-content-around col-lg-12">El proyecto, que participó del concurso Innovar, se llevó desde el año pasado varios aplausos. “No
-            ganamos el premio, pero nos ganamos las caras de fascinación y las palabras cariñosas de quienes pasaron
-            por el stand 🤩”, escribieron. Bookcassete, un invento argentino y original Presentado como “un nuevo
-            soporte de lectura”, lo que lo ha vuelto entrañable es su modo de consumo, que apela a la nostalgia para
-            los que consumieron música en las décadas de 1980 y 1990. Porque, además, la forma de “pasar de página”
-            es genial: con una birome, parte imprescindible en esta historia.</h4>
-        
-    </article>
+        </section>
+            
 
-    <section class="container d-flex align-items-center justify-content-center">
+
+    <section class="container d-flex align-items-center justify-content-center carrousel-actualidad">
         <div id="carouselExample" class="carousel slide">
             <div class="carousel-inner">
                 <div class="carousel-item active col-sm-8 col-sm-offset-2 col-sm-2">
@@ -117,7 +130,7 @@
         </div>
     </section>
 
-    <article class="container">
+    <article class="container col-sm-12 parrafos-2">
         <div class="row">
         <h2>
             Vero Marto escribió: “Hermosa (y recicladora) idea”, y más de uno pidió que incluyan la bic para que
@@ -134,7 +147,7 @@
         <div>
             <iframe
                 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d26264.513808574957!2d-58.5053515843805!3d-34.62781721848201!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcc99546769e49%3A0x4d754ad5ca377710!2sFloresta%2C%20CABA!5e0!3m2!1ses-419!2sar!4v1682048789540!5m2!1ses-419!2sar"
-                width="450" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                width="430" height="450" style="border:0;" allowfullscreen="" loading="lazy"
                 referrerpolicy="no-referrer-when-downgrade"></iframe>
         </div>
     </div>
@@ -149,13 +162,14 @@
     </div>
     <article class="container">
         <div class="row">
-            <p class="col-12 d-flex justify-content-around">
+            <p class="col-12 d-flex justify-content-around icon-size">
                 Copyright © 2023 VC LIBROS  
                 Política de privacidad
                 Términos y condiciones
             </p>
         </div>
     </article>
+</section>
 </footer>
 
 
