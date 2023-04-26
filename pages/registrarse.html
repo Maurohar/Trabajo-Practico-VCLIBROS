@@ -18,10 +18,12 @@
 
 <body>
             <!-- navbar header -->
-    <header class="container d-row justify-content-around">
+    <header class="header">
+
+
         <nav class="navbar navbar-expand-lg">
             <div class="container-fluid">
-                <a class="navbar-brand fs-1" href="#">VCLIBROS</a>
+                <a class="navbar-brand title-vclibros" href="#">VCLIBROS</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                     aria-expanded="false" aria-label="Toggle navigation">
@@ -40,7 +42,7 @@
                                 aria-expanded="false">
                                 Catalogos
                             </a>
-                            <ul class="dropdown-menu active">
+                            <ul class="dropdown-menu ul-size">
                                 <li><a class="dropdown-item" href="./catalogos.html">BestSeller</a></li>
                                 <li><a class="dropdown-item" href="./catalogos.html">Revistas</a></li>
                                 <li><a class="dropdown-item" href="./catalogos.html">Poesia</a></li>
@@ -56,7 +58,7 @@
                         </li>
                     </ul>
                     <form class="d-flex" role="search">
-                        <input class="form-control me-2" type="search" placeholder="¿Que te gustaria leer?"
+                        <input class="form-control me-2 size" type="search" placeholder="¿Que te gustaria leer?"
                             aria-label="Search">
                         <button class="btn btn-outline-success" type="submit">Buscar</button>
                     </form>
@@ -66,7 +68,7 @@
     </header>
     <hr>
     <div>
-        <h2 class="d-flex justify-content-center h3">Registrarse</h2>
+        <h2 class="title-vidriera">Registrarse</h2>
     </div>
     <hr>
     <hr>
@@ -74,13 +76,13 @@
     <main>
         <article class="container fs-5">
             <div class="row justify-content-around">
-                <div class="col-6 mb-3 col-lg-2">
+                <div class="col-6 mb-3 col-lg-2 label-font">
                     <label for="exampleFormControlInput1" class="form-label">Ingrese su Email</label>
                     <input type="email" class="form-control" id="exampleFormControlInput1"
-                        placeholder= nombre@email.com >
+                        placeholder= "nombre@email.com" >
                 </div>
 
-                <div class="mb-3 col-lg-2">
+                <div class="mb-3 col-lg-2 label-font">
                     <label for="inputPassword5" class="form-label">Contraseña</label>
                     <input type="password" id="inputPassword5" class="form-control" aria-labelledby="passwordHelpBlock">
                     <div id="passwordHelpBlock" class="form-text">
@@ -88,7 +90,7 @@
                         caracteres especiales.
                     </div>
                 </div>
-                <div class="mb-3 col-lg-2">
+                <div class="mb-3 col-lg-2 label-font"> 
                     <label for="exampleFormControlTextarea1" class="form-label">¿Dime que estas pensando?</label>
                     <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
                     <hr>
@@ -103,21 +105,21 @@
             <hr>
 
             <form class="row g-3 needs-validation" novalidate>
-                <div class="col-md-4">
+                <div class="col-md-4 label-font">
                     <label for="validationCustom01" class="form-label">Primer nombre</label>
                     <input type="text" class="form-control" id="validationCustom01" value="Nombre" required>
                     <div class="valid-feedback">
                         Perfecto!
                     </div>
                 </div>
-                <div class="col-md-4">
+                <div class="col-md-4 label-font">
                     <label for="validationCustom02" class="form-label">Apellido</label>
                     <input type="text" class="form-control" id="validationCustom02" value="Apellidos.." required>
                     <div class="valid-feedback">
                         Perfecto!
                     </div>
                 </div>
-                <div class="col-md-4">
+                <div class="col-md-4 label-font">
                     <label for="validationCustomUsername" class="form-label">Nickname-Sobrenombre</label>
                     <div class="input-group has-validation">
                         <span class="input-group-text" id="inputGroupPrepend">@</span>
@@ -128,17 +130,17 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-6">
+                <div class="col-md-6 label-font">
                     <label for="validationCustom03" class="form-label">Ciudad</label>
                     <input type="text" class="form-control" id="validationCustom03" required>
                     <div class="invalid-feedback">
                         Porfavor ingresa tu ciudad.
                     </div>
                 </div>
-                <div class="col-md-3">
+                <div class="col-md-3 label-font">
                     <label for="validationCustom04" class="form-label">País</label>
                     <select class="form-select" id="validationCustom04" required>
-                        <option selected disabled value="">Seleccione</option>
+                        <option selected disabled value="Otros..">Seleccione su país</option>
                         <option>Argentina</option>
                         <option>Alemania</option>
                         <option>España</option>
@@ -152,25 +154,25 @@
                         Porfavor selecciona tu pais de origen.
                     </div>
                 </div>
-                <div class="col-md-3">
+                <div class="col-md-3 label-font">
                     <label for="validationCustom05" class="form-label">Codigo postal:</label>
                     <input type="text" class="form-control" id="validationCustom05" required>
                     <div class="invalid-feedback">
                         Porfavor ingresa tu codigo postal.
                     </div>
                 </div>
-                <div class="col-12">
+                <div class="col-12 label-font">
                     <div class="form-check">
                         <input class="form-check-input" type="checkbox" value="" id="invalidCheck" required>
                         <label class="form-check-label" for="invalidCheck">
                             Acepto los terminos y condiciones.
                         </label>
                         <div class="invalid-feedback">
-                            Acepto los terminos y condiciones
+                            
                         </div>
                     </div>
                 </div>
-                <div class="col-12">
+                <div class="col-md-12">
                     <button class="btn btn-primary" type="submit">Enviar</button>
                 </div>
             </form>
