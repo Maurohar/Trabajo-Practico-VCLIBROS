@@ -1,4 +1,7 @@
-@import url(./componentes/_variables.scss);
+$tipoletra-secundario:'Castoro Titling', cursive;
+$fuentecolor-primario: rgba(92, 86, 86, 0.714);
+
+
 /* ((HEADER - INDEX - NAV)) */ 
 
     .header {    
@@ -19,6 +22,10 @@
         font-size: 1.5rem;
         font-family: 'Castoro Titling', cursive;
         }
+    .size{
+        font-size: 1.3rem;
+        color: violet;
+    }
 }
 
 
@@ -45,8 +52,22 @@
 
 
 
-
 /* main index cards */
+
+
+    .card-title{
+        font-size: 2rem;
+        font-family: 'Montserrat', sans-serif;
+}
+
+.card-text{
+    font-size: 1.4rem;
+    font-family: $tipoletra-secundario;
+}
+
+.icon-size{
+    font-size: 1.7rem;
+}
 
 
 
