@@ -127,8 +127,27 @@ $fuentecolor-primario: rgba(92, 86, 86, 0.714);
 }
 
 
+/* page nosotros*/
 
+.title-nosotros{
+    font-size: 2.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Castoro Titling', cursive;
 
+}
+
+/* main nosotros*/
+
+.bg-salmon{
+    font-size: 1.3rem;
+    font-family: 'Montserrat', sans-serif;
+    background-color: #fa8072e6;
+    color: black;
+    border-radius: 20px;
+    padding: 20px;
+}
 
 
 
