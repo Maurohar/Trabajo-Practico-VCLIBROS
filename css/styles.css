@@ -3,20 +3,20 @@
   display: flex;
   justify-content: space-around;
   align-items: center;
-  font-size: 2rem;
+  font-size: 1rem;
   font-family: "Montserrat", sans-serif;
 }
-.header .title-vclibros {
-  font-size: 4rem;
+.header.title-vclibros {
+  font-size: 5rem;
   font-family: "Castoro Titling", cursive;
   color: rgba(69, 18, 18, 0.866);
 }
-.header .ul-size a {
-  font-size: 1.5rem;
+.header.ul-size a {
+  font-size: 1.3rem;
   font-family: "Castoro Titling", cursive;
 }
-.header .size {
-  font-size: 1.3rem;
+.header.size {
+  font-size: 1.2rem;
   color: violet;
 }
 
@@ -60,6 +60,10 @@
 .card-text {
   font-size: 1.4rem;
   font-family: "Castoro Titling", cursive;
+}
+
+.card-size {
+  width: 18rem;
 }
 
 /* footer index */

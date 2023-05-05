@@ -1,29 +1,32 @@
-@import "./";
+@import "./componentes/variables";
 $tipoletra-secundario:'Castoro Titling', cursive;
 $fuentecolor-primario: rgba(92, 86, 86, 0.714);
 
 
+
+
 /* ((HEADER - INDEX - NAV)) */ 
 
-    .header {    
+.header {    
     display: flex;
     justify-content: space-around;
     align-items: center;
-    font-size: 2rem;
+    font-size: 1rem;
     font-family: 'Montserrat', sans-serif;
 
 
-    .title-vclibros{
-        font-size: 4rem;
+    &.title-vclibros{
+        font-size: 5rem;
         font-family: 'Castoro Titling', cursive;
         color: rgba(69, 18, 18, 0.866);
     }
 
-    .ul-size a{
+    &.ul-size a{
         font-size: 1.3rem;
         font-family: 'Castoro Titling', cursive;
         }
-    .size{
+        
+    &.size{
         font-size: 1.2rem;
         color: violet;
     }
@@ -39,7 +42,6 @@ $fuentecolor-primario: rgba(92, 86, 86, 0.714);
     justify-content: center;
     font-family: 'Castoro Titling', cursive;
 }
-
 
 .parrafos {
     font-size: 1.3rem;
@@ -63,11 +65,8 @@ $fuentecolor-primario: rgba(92, 86, 86, 0.714);
         color: black;
         border-radius: 20px;
         padding: 20px;
-            
-    
+                
 }
-
-
 
 /* main index cards */
 
@@ -80,6 +79,10 @@ $fuentecolor-primario: rgba(92, 86, 86, 0.714);
 .card-text{
     font-size: 1.4rem;
     font-family: $tipoletra-secundario;
+}
+
+.card-size{
+    width: 18rem;
 }
 
 
