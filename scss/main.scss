@@ -157,8 +157,18 @@ $fuentecolor-primario: rgba(92, 86, 86, 0.714);
 
 /* main */
 
+.bg-img{
+    background-image: url(../imagenes/playa.jpg);
+
+}
+
 .label-font{
     font-size: 1.7rem;
+
+}
+
+.white-colors{
+    background-color: white;
 
 }
 

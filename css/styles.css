@@ -124,8 +124,16 @@
 
 /* navbar page - registrarse */
 /* main */
+.bg-img {
+  background-image: url(../imagenes/playa.jpg);
+}
+
 .label-font {
   font-size: 1.7rem;
+}
+
+.white-colors {
+  background-color: white;
 }
 
 /*# sourceMappingURL=styles.css.map */
